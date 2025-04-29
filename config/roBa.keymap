@@ -107,10 +107,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &kp PAGE_UP
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &kp PAGE_DOWN
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &kp HOME
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &kp END
+&trans  &trans  &trans  &trans  &trans                                &mkp MB4    &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PAGE_UP
+&trans  &trans  &trans  &trans  &trans  &trans      &msc SCRL_UP      &mkp MB5    &mkp MB1        &mkp MB3        &mkp MB2         &kp PAGE_DOWN
+&trans  &trans  &trans  &trans  &trans  &trans      &msc SCRL_DOWN    &kp K_MUTE  &kp C_VOL_DN    &kp DOWN_ARROW  &kp C_VOL_UP     &kp HOME
+&trans  &trans  &trans  &trans  &trans  &trans      &kp K_PLAY_PAUSE  &kp K_NEXT                                                   &kp END
             >;
         };
 
